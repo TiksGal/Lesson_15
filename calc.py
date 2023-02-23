@@ -1,10 +1,8 @@
-def add(x: int, y: int) -> int:
+def add(x: int, y: int) -> float:
     return x + y
 def sub(x: int, y: int) -> int:
     return x - y
 def prod(x: int, y: int) -> int:
     return x * y
 def div(x: int, y: int) -> int:
-    return x // y
-
-print(add(2,2))
+    return x / y
